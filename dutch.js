@@ -10,3 +10,4 @@ let german = JSON.parse(`
   }
 ]
 `);
+german.sort(() => Math.random() - 0.5);
