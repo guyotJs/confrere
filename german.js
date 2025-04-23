@@ -431,6 +431,86 @@ let german = JSON.parse(`
         "b": ["Glück", true],
         "c": ["Licht", false],
         "d": ["Hoffnung", false]
+    },
+    {
+        "g": "Ich habe meine -- zu Hause vergessen.",
+        "e": "I forgot my keys at home.",
+        "a": ["Schuhe", false],
+        "b": ["Schlüssel", true],
+        "c": ["Brille", false],
+        "d": ["Jacke", false]
+    },
+    {
+        "g": "Kannst du mir bitte --?",
+        "e": "Can you please help me?",
+        "a": ["gehen", false],
+        "b": ["helfen", true],
+        "c": ["geben", false],
+        "d": ["zeigen", false]
+    },
+    {
+        "g": "Wir treffen uns um acht Uhr vor dem --.",
+        "e": "We're meeting at eight o'clock in front of the cinema.",
+        "a": ["Bahnhof", false],
+        "b": ["Supermarkt", false],
+        "c": ["Kino", true],
+        "d": ["Park", false]
+    },
+    {
+        "g": "Heute ist das Wetter wirklich --.",
+        "e": "The weather is really nice today.",
+        "a": ["kalt", false],
+        "b": ["schlecht", false],
+        "c": ["schön", true],
+        "d": ["nass", false]
+    },
+    {
+        "g": "Ich interessiere mich sehr für --.",
+        "e": "I'm very interested in music.",
+        "a": ["Sport", false],
+        "b": ["Musik", true],
+        "c": ["Mathe", false],
+        "d": ["Kunst", false]
+    },
+    {
+        "g": "Wir müssen noch Brot und -- einkaufen.",
+        "e": "We still need to buy bread and milk.",
+        "a": ["Wasser", false],
+        "b": ["Milch", true],
+        "c": ["Käse", false],
+        "d": ["Zucker", false]
+    },
+    {
+        "g": "Ich freue mich auf den --.",
+        "e": "I'm looking forward to the vacation.",
+        "a": ["Montag", false],
+        "b": ["Feierabend", false],
+        "c": ["Urlaub", true],
+        "d": ["Arbeit", false]
+    },
+    {
+        "g": "Mein Handy -- nicht mehr.",
+        "e": "My phone doesn't work anymore.",
+        "a": ["geht", false],
+        "b": ["steht", false],
+        "c": ["funktioniert", true],
+        "d": ["liegt", false]
+    },
+    {
+        "g": "Ich verstehe die -- nicht.",
+        "e": "I don't understand the assignment.",
+        "a": ["Antwort", false],
+        "b": ["Aufgabe", true],
+        "c": ["Lösung", false],
+        "d": ["Frage", false]
+    },
+    {
+        "g": "Wir fahren im Sommer nach --.",
+        "e": "We're going to Italy in the summer.",
+        "a": ["Spanien", false],
+        "b": ["Italien", true],
+        "c": ["Griechenland", false],
+        "d": ["Deutschland", false]
     }
 ]
 `);
