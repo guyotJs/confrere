@@ -319,6 +319,118 @@ let german = JSON.parse(`
         "b": ["unser", false],
         "c": ["unserem", false],
         "d": ["unseren", false]
+    },
+    {
+        "g": "Wir haben genug --.",
+        "e": "We have enough water.",
+        "a": ["Milch", false],
+        "b": ["Wasser", true],
+        "c": ["Saft", false],
+        "d": ["Brot", false]
+    },
+    {
+        "g": "Bitten Sie mich nicht noch einmal --.",
+        "e": "Don’t ask me for it again.",
+        "a": ["darauf", false],
+        "b": ["davor", false],
+        "c": ["daran", false],
+        "d": ["darum", true]
+    },
+    {
+        "g": "Bin gleich --.",
+        "e": "Be right back.",
+        "a": ["dran", false],
+        "b": ["weg", false],
+        "c": ["zurück", true],
+        "d": ["los", false]
+    },
+    {
+        "g": "Sie ist nicht ganz --.",
+        "e": "She’s not very easy.",
+        "a": ["nett", false],
+        "b": ["leicht", false],
+        "c": ["einfach", true],
+        "d": ["ruhig", false]
+    },
+    {
+        "g": "Ich wünschte, ich könnte mehr --.",
+        "e": "I wish I could do more.",
+        "a": ["tun", true],
+        "b": ["gehen", false],
+        "c": ["machen", false],
+        "d": ["sagen", false]
+    },
+    {
+        "g": "Wie lange sind Sie schon --?",
+        "e": "How long have you been together?",
+        "a": ["zusammen", true],
+        "b": ["verheiratet", false],
+        "c": ["fertig", false],
+        "d": ["hier", false]
+    },
+    {
+        "g": "Wo, zum Teufel, warst du so --?",
+        "e": "Where the hell have you been so long?",
+        "a": ["oft", false],
+        "b": ["spät", false],
+        "c": ["lange", true],
+        "d": ["fern", false]
+    },
+    {
+        "g": "Ich habe erst gestern erfahren, dass die Prüfung -- wurde.",
+        "e": "I only found out yesterday that the exam was postponed.",
+        "a": ["fiel", false],
+        "b": ["verschoben", true],
+        "c": ["verpasst", false],
+        "d": ["verloren", false]
+    },
+    {
+        "g": "Was kann ich Ihnen --?",
+        "e": "What can I bring you?",
+        "a": ["bringen", true],
+        "b": ["geben", false],
+        "c": ["zeigen", false],
+        "d": ["sagen", false]
+    },
+    {
+        "g": "Sagen Sie es --.",
+        "e": "Don’t tell anyone.",
+        "a": ["niemandem", true],
+        "b": ["jedem", false],
+        "c": ["irgendwer", false],
+        "d": ["alle", false]
+    },
+    {
+        "g": "Ich verstehe überhaupt --.",
+        "e": "I don’t understand anything at all.",
+        "a": ["alles", false],
+        "b": ["etwas", false],
+        "c": ["nicht", false],
+        "d": ["nichts", true]
+    },
+    {
+        "g": "Wie halten Sie es --?",
+        "e": "How do you endure it?",
+        "a": ["dran", false],
+        "b": ["aus", true],
+        "c": ["hin", false],
+        "d": ["runter", false]
+    },
+    {
+        "g": "Es liegt ein weiter Weg -- uns.",
+        "e": "There’s a long road ahead of us.",
+        "a": ["neben", false],
+        "b": ["hinter", false],
+        "c": ["vor", true],
+        "d": ["über", false]
+    },
+    {
+        "g": "Sie hatte nur wenig --.",
+        "e": "She had little luck.",
+        "a": ["Zeit", false],
+        "b": ["Glück", true],
+        "c": ["Licht", false],
+        "d": ["Hoffnung", false]
     }
 ]
 `);
