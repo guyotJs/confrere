@@ -13,8 +13,8 @@ let german = JSON.parse(`
     "e": "If I had more time, I would take painting classes.",
     "a": ["prendrais", true],
     "b": ["prends", false],
-    "c": ["prendrais", true],
-    "d": ["prendrais", false]
+    "c": ["pendant", false],
+    "d": ["prenne", false]
   },
   {
     "g": "Il faut que tu ___ attention à ce que tu dis.",
