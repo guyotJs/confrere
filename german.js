@@ -511,6 +511,166 @@ let german = JSON.parse(`
         "b": ["Italien", true],
         "c": ["Griechenland", false],
         "d": ["Deutschland", false]
+    },
+    {
+        "g": "Ich bin --.",
+        "e": "I'm in / I'm on it.",
+        "a": ["fertig", false],
+        "b": ["weg", false],
+        "c": ["dabei", true],
+        "d": ["dran", false]
+    },
+    {
+        "g": "Er sollte noch am Leben --.",
+        "e": "He should still be alive.",
+        "a": ["bleiben", false],
+        "b": ["sein", true],
+        "c": ["stehen", false],
+        "d": ["kommen", false]
+    },
+    {
+        "g": "Ich weiß überhaupt nicht, was ich -- habe.",
+        "e": "I have no idea what I did.",
+        "a": ["gesehen", false],
+        "b": ["gehört", false],
+        "c": ["getan", true],
+        "d": ["gesagt", false]
+    },
+    {
+        "g": "Sind Sie schon --?",
+        "e": "Are you already done?",
+        "a": ["da", false],
+        "b": ["bereit", false],
+        "c": ["fertig", true],
+        "d": ["weg", false]
+    },
+    {
+        "g": "Es gibt so viele Dinge, die ich dir -- möchte.",
+        "e": "There are so many things I want to tell you.",
+        "a": ["zeigen", false],
+        "b": ["sagen", true],
+        "c": ["geben", false],
+        "d": ["bringen", false]
+    },
+    {
+        "g": "Ich habe keine --.",
+        "e": "I have no idea.",
+        "a": ["Hoffnung", false],
+        "b": ["Zeit", false],
+        "c": ["Ahnung", true],
+        "d": ["Antwort", false]
+    },
+    {
+        "g": "Bis fünf Uhr wird er wieder zurück --.",
+        "e": "He'll be back by five o'clock.",
+        "a": ["gehen", false],
+        "b": ["sein", true],
+        "c": ["fahren", false],
+        "d": ["laufen", false]
+    },
+    {
+        "g": "Kann ich dir was --?",
+        "e": "Can I bring you something?",
+        "a": ["geben", false],
+        "b": ["sagen", false],
+        "c": ["bringen", true],
+        "d": ["nehmen", false]
+    },
+    {
+        "g": "Sie sollte nicht hier --.",
+        "e": "She shouldn't be here.",
+        "a": ["stehen", false],
+        "b": ["sein", true],
+        "c": ["gehen", false],
+        "d": ["laufen", false]
+    },
+    {
+        "g": "Ich möchte wissen, warum ihr das --.",
+        "e": "I want to know why you're doing that.",
+        "a": ["macht", true],
+        "b": ["tut", false],
+        "c": ["sagt", false],
+        "d": ["geht", false]
+    },
+    {
+        "g": "Weiß Ihre Frau --?",
+        "e": "Does your wife know about it?",
+        "a": ["darauf", false],
+        "b": ["davon", true],
+        "c": ["dabei", false],
+        "d": ["davor", false]
+    },
+    {
+        "g": "Wie lang hast du vor, in diesem Land zu --?",
+        "e": "How long do you plan to stay in this country?",
+        "a": ["leben", false],
+        "b": ["bleiben", true],
+        "c": ["reisen", false],
+        "d": ["wohnen", false]
+    },
+    {
+        "g": "Ich bin am --.",
+        "e": "I'm dying.",
+        "a": ["Leben", false],
+        "b": ["Lachen", false],
+        "c": ["Sterben", true],
+        "d": ["Weinen", false]
+    },
+    {
+        "g": "Ich sagte ihr gute --.",
+        "e": "I said good night to her.",
+        "a": ["Zeit", false],
+        "b": ["Nacht", true],
+        "c": ["Morgen", false],
+        "d": ["Abend", false]
+    },
+    {
+        "g": "Sie wissen, dass dies nicht --.",
+        "e": "You know that this is not true.",
+        "a": ["geht", false],
+        "b": ["stimmt", true],
+        "c": ["passt", false],
+        "d": ["hilft", false]
+    },
+    {
+        "g": "Ich bin ein römischer --.",
+        "e": "I am a Roman citizen.",
+        "a": ["Mensch", false],
+        "b": ["Bürger", true],
+        "c": ["Soldat", false],
+        "d": ["König", false]
+    },
+    {
+        "g": "Wir helfen alle --.",
+        "e": "We all like to help.",
+        "a": ["oft", false],
+        "b": ["schnell", false],
+        "c": ["gerne", true],
+        "d": ["bald", false]
+    },
+    {
+        "g": "Es gab keine --.",
+        "e": "There were no railways.",
+        "a": ["Autos", false],
+        "b": ["Züge", false],
+        "c": ["Eisenbahnen", true],
+        "d": ["Straßen", false]
+    },
+    {
+        "g": "Die Verbündeten verloren keine --.",
+        "e": "The Allies wasted no time.",
+        "a": ["Zeit", true],
+        "b": ["Soldaten", false],
+        "c": ["Kräfte", false],
+        "d": ["Ressourcen", false]
+    },
+    {
+        "g": "Die Schlacht war heftig und unglaublich --.",
+        "e": "The battle was fierce and incredibly bloody.",
+        "a": ["blutig", true],
+        "b": ["schwer", false],
+        "c": ["heiß", false],
+        "d": ["schnell", false]
     }
 ]
 `);
