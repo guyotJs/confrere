@@ -11,12 +11,13 @@ mouseClicked(()=>{
 });
 
 
-function language(name,number){
+function language(name,number,isBeta=false){
     selectColor("white")
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*number),width:310,height:116})){selectColor("green");}
     rect(centerX-(310/2),centerY-(116/2)+(130*number),310,116);
     selectColor("black");
-    text("GO TO",centerX,centerY-30+(130*number),"20px Serif");
+    if(!isBeta){text("GO TO",centerX,centerY-30+(130*number),"20px Serif");}
+    else{text("GO TO (BETA)",centerX,centerY-30+(130*number),"20px Serif");}
     text(name,centerX,centerY+18+(130*number),"50px Serif");
 }
 
@@ -26,5 +27,5 @@ function render(){
     selectColor("lightgray");
     text("A Simple Free Clozemaster Alternative ",centerX,centerY-140,"Italic 40px Serif");
     language("GERMAN",0)
-    language("DUTCH",1)
+    language("DUTCH",1,true)
 }
