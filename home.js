@@ -8,6 +8,7 @@ mouseWillMove();
 mouseClicked(()=>{
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*0),width:310,height:116})){window.location = "./german.html"}
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*1),width:310,height:116})){window.location = "./dutch.html"}
+    if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*2),width:310,height:116})){window.location = "./dutch.html"}
 });
 
 
@@ -27,5 +28,5 @@ function render(){
     text("A Simple Free Clozemaster Alternative ",centerX,centerY-140,"Italic 40px Serif");
     language("GERMAN",0,"(A1-B1)");
     language("DUTCH",1,"(BETA)");
-    language("FRENCH",1,"(B1-B2)");
+    language("FRENCH",2,"(B1-B2)");
 }
