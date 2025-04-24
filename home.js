@@ -9,7 +9,7 @@ mouseClicked(()=>{
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*0),width:310,height:116})){window.location = "./german.html"}
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*1),width:310,height:116})){window.location = "./dutch.html"}
     if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*2),width:310,height:116})){window.location = "./french/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*2),width:310,height:116})){window.location = "./scots/index.html"}
+    if(isInside(mouse,{x:centerX-(310/2),y:centerY-(116/2)+(130*3),width:310,height:116})){window.location = "./scots/index.html"}
 });
 
 
