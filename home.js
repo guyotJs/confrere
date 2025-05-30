@@ -56,5 +56,5 @@ function render(){
     language("GALICIAN",6,"(BETA)");
     language("WYMYSORYS",7,"(BETA)");
     language("ÆNGLISĊ",8,"(BETA)");
-    language("FRISIAN",9,"(SOON)");
+    language("HAWAIIAN",9,"(SOON)");
 }
