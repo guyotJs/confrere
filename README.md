@@ -16,5 +16,5 @@ There are limited languages available right now.
 4. [Scots](https://guyotjs.github.io/confrere/scots/index.html) - A2-B1
 5. [Norman](https://guyotjs.github.io/confrere/normaund/index.html) - Beta _(Cotentin Dialect)_
 6. [Catalan](https://guyotjs.github.io/confrere/catalan/index.html) - Beta
-7. [Galician](https://guyotjs.github.io/confrere/galiciain/index.html) - Beta _(Standard Galician)_
+7. [Galician](https://guyotjs.github.io/confrere/galician/index.html) - Beta _(Standard Galician)_
 8. [Wymysorys](https://guyotjs.github.io/confrere/wymysorys/index.html) - Beta _(Written Standard)_
