@@ -73,7 +73,7 @@ let german = JSON.parse(`
     "d": ["eardian", false]
   },
   {
-    "g": "Wē ___ Godes lof singan.",
+    "g": "Wē ___ Godes lof",
     "e": "We sing God's praise.",
     "a": ["singað", true],
     "b": ["sang", false],
