@@ -48,7 +48,7 @@ function render(){
     language("GERMAN",0,"(A1-B1)");
     language("DUTCH",1,"(BETA)");
     language("FRENCH",2,"(B1-B2)");
-    language("SCOTS",3,"(BETA)");
+    language("SCOTS",3,"(A2-B1)");
     language("NORMAN",4,"(BETA)");
     language("CATALAN",5,"(BETA)");
     language("GALICIAN",6,"(BETA)");
