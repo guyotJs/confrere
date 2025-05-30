@@ -174,6 +174,166 @@ let german = JSON.parse(`[
     "b": ["adent", false],
     "c": ["fain", false],
     "d": ["gawfy", false]
+  },
+  {
+    "g": "She ___ tae the kirk on Sunday.",
+    "e": "She went to the church on Sunday.",
+    "a": ["gaed", true],
+    "b": ["gangs", false],
+    "c": ["gane", false],
+    "d": ["gang", false]
+  },
+  {
+    "g": "A ___ ma breeks in the weshin machine.",
+    "e": "I put my trousers in the washing machine.",
+    "a": ["pit", true],
+    "b": ["puts", false],
+    "c": ["pittin", false],
+    "d": ["pitten", false]
+  },
+  {
+    "g": "Whit ___ ye dae yestreen?",
+    "e": "What did you do last night?",
+    "a": ["did", true],
+    "b": ["does", false],
+    "c": ["daes", false],
+    "d": ["dune", false]
+  },
+  {
+    "g": "We ___ the hale day at the gairden.",
+    "e": "We spent the whole day in the garden.",
+    "a": ["spent", true],
+    "b": ["spended", false],
+    "c": ["speant", false],
+    "d": ["speantit", false]
+  },
+  {
+    "g": "The bairn ___ greetin for his maw.",
+    "e": "The child is crying for his mother.",
+    "a": ["is", true],
+    "b": ["was", false],
+    "c": ["will be", false],
+    "d": ["greeted", false]
+  },
+  {
+    "g": "Ah ___ the door afore ye cam in.",
+    "e": "I closed the door before you came in.",
+    "a": ["shut", true],
+    "b": ["closes", false],
+    "c": ["shettit", false],
+    "d": ["close", false]
+  },
+  {
+    "g": "They ___ a muckle big dug last year.",
+    "e": "They got a very big dog last year.",
+    "a": ["got", true],
+    "b": ["get", false],
+    "c": ["gat", false],
+    "d": ["gote", false]
+  },
+  {
+    "g": "He ___ tae ken the truth.",
+    "e": "He wants to know the truth.",
+    "a": ["wants", true],
+    "b": ["wantit", false],
+    "c": ["wantin", false],
+    "d": ["wantes", false]
+  },
+  {
+    "g": "The wind ___ blawin aw nicht.",
+    "e": "The wind was blowing all night.",
+    "a": ["wis", true],
+    "b": ["is", false],
+    "c": ["be", false],
+    "d": ["will be", false]
+  },
+  {
+    "g": "Dinna ___ oot in the cauld wi nae jaiket!",
+    "e": "Don't go out in the cold without a jacket!",
+    "a": ["gang", true],
+    "b": ["go", false],
+    "c": ["gae", false],
+    "d": ["went", false]
+  },
+  {
+    "g": "She ___ her keys doon the drain.",
+    "e": "She dropped her keys down the drain.",
+    "a": ["droppit", true],
+    "b": ["droops", false],
+    "c": ["drappit", false],
+    "d": ["drop", false]
+  },
+  {
+    "g": "Ah ___ ma tea afore the telly.",
+    "e": "I ate my dinner in front of the TV.",
+    "a": ["ate", true],
+    "b": ["et", false],
+    "c": ["eatin", false],
+    "d": ["ates", false]
+  },
+  {
+    "g": "Ye shuidnae ___ sae late.",
+    "e": "You shouldn’t stay up so late.",
+    "a": ["bide up", true],
+    "b": ["staun", false],
+    "c": ["gang", false],
+    "d": ["stayit", false]
+  },
+  {
+    "g": "They ___ the wean tae the schuil.",
+    "e": "They took the child to school.",
+    "a": ["taen", true],
+    "b": ["tak", false],
+    "c": ["taks", false],
+    "d": ["takken", false]
+  },
+  {
+    "g": "The laddie ___ a guid fecht yestreen.",
+    "e": "The boy had a good fight last night.",
+    "a": ["had", true],
+    "b": ["haes", false],
+    "c": ["haft", false],
+    "d": ["haed", false]
+  },
+  {
+    "g": "Whaur ___ ye gaun wi aw thon baps?",
+    "e": "Where are you going with all those bread rolls?",
+    "a": ["are", true],
+    "b": ["is", false],
+    "c": ["whaur", false],
+    "d": ["gaed", false]
+  },
+  {
+    "g": "Ma grannie ___ aye mak a braw stew.",
+    "e": "My granny always used to make a nice stew.",
+    "a": ["wad", true],
+    "b": ["will", false],
+    "c": ["wud", false],
+    "d": ["wull", false]
+  },
+  {
+    "g": "The dugs ___ barkin aw nicht lang.",
+    "e": "The dogs were barking all night long.",
+    "a": ["wis", true],
+    "b": ["is", false],
+    "c": ["barkit", false],
+    "d": ["will be", false]
+  },
+  {
+    "g": "Ah’ve ___ thon film afore.",
+    "e": "I’ve seen that film before.",
+    "a": ["seen", true],
+    "b": ["saw", false],
+    "c": ["see", false],
+    "d": ["sichtit", false]
+  },
+  {
+    "g": "Dinna ___ ower the burn wi yer slippers!",
+    "e": "Don’t walk across the stream with your slippers!",
+    "a": ["skelp", true],
+    "b": ["run", false],
+    "c": ["gang", false],
+    "d": ["traipse", false]
   }
 ]`);
 german.sort(() => Math.random() - 0.5);
