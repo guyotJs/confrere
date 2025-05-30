@@ -9,7 +9,7 @@ let german = JSON.parse(`
     "d": ["sittende", false]
   },
   {
-    "g": "Ic ___ þē lufode.",
+    "g": "Ic ___ þē.",
     "e": "I loved you.",
     "a": ["lufode", true],
     "b": ["lufa", false],
@@ -25,15 +25,15 @@ let german = JSON.parse(`
     "d": ["wæron", false]
   },
   {
-    "g": "Þū ___ mid mē gān.",
+    "g": "Þū scealt mid mē ___.",
     "e": "You will go with me.",
-    "a": ["gæst", true],
+    "a": ["gǣst", false],
     "b": ["gēongest", false],
-    "c": ["gān", false],
+    "c": ["gān", true],
     "d": ["ēode", false]
   },
   {
-    "g": "Hīe ___ þone wulf ofslogon.",
+    "g": "Hīe ___ þone wulf.",
     "e": "They killed the wolf.",
     "a": ["hæfdon", false],
     "b": ["slogon", false],
@@ -41,7 +41,7 @@ let german = JSON.parse(`
     "d": ["slōgan", false]
   },
   {
-    "g": "Hwæt ___ þū secge?",
+    "g": "Hwæt ___ þū?",
     "e": "What are you saying?",
     "a": ["segst", true],
     "b": ["secge", false],
@@ -49,11 +49,11 @@ let german = JSON.parse(`
     "d": ["secgan", false]
   },
   {
-    "g": "Ic ___ beforan þē standan.",
+    "g": "Ic ___ beforan þē.",
     "e": "I stand before you.",
     "a": ["mæg", false],
-    "b": ["eom", true],
-    "c": ["wæs", false],
+    "b": ["eom", false],
+    "c": ["stande", true],
     "d": ["hæfde", false]
   },
   {
