@@ -18,3 +18,4 @@ There are limited languages available right now.
 6. [Catalan](https://guyotjs.github.io/confrere/catalan/index.html) - Beta
 7. [Galician](https://guyotjs.github.io/confrere/galician/index.html) - Beta _(Standard Galician)_
 8. [Wymysorys](https://guyotjs.github.io/confrere/wymysorys/index.html) - Beta _(Written Standard)_
+8. [Ænglisċ](https://guyotjs.github.io/confrere/aenglisc/index.html) - Beta _(Old English)_
