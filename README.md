@@ -13,4 +13,8 @@ There are limited languages available right now.
 1. [German](https://guyotjs.github.io/confrere/german/index.html) - A1/B1
 2. [Dutch](https://guyotjs.github.io/confrere/dutch/index.html) - Beta
 3. [French](https://guyotjs.github.io/confrere/french/index.html) - B1-B2
-3. [Scots](https://guyotjs.github.io/confrere/scots/index.html) - Beta
+4. [Scots](https://guyotjs.github.io/confrere/scots/index.html) - Beta
+5. [Norman](https://guyotjs.github.io/confrere/normaund/index.html) - Beta
+6. [Catalan](https://guyotjs.github.io/confrere/catalan/index.html) - Beta
+7. [Galician](https://guyotjs.github.io/confrere/galiciain/index.html) - Beta
+8. [Wymysorys](https://guyotjs.github.io/confrere/wymysorys/index.html) - Beta
