@@ -12,7 +12,7 @@ let conjugationTypes = pro.length;
 let isTrue = undefined;
 let isDone = false;
 let currentType = random(0,pro.length-1);
-let currentVerb = random(0,con.length-1);
+let currentVerb = random(0,pres.length-1);
 
 function newQuestion(){
     data.val = "";
@@ -20,7 +20,7 @@ function newQuestion(){
     isDone = false;
     isTrue = undefined;
     currentType = random(0,pro.length-1);
-    currentVerb = random(0,con.length-1);
+    currentVerb = random(0,pres.length-1);
 }
 
 document.addEventListener('keydown', function(event) {
@@ -29,7 +29,7 @@ document.addEventListener('keydown', function(event) {
         let trueScribe = data.val.replaceAll(" ","");
         trueScribe = trueScribe.toLowerCase();
         isDone = true;
-        if(trueScribe==con[currentVerb][1][currentType]){
+        if(trueScribe==pres[currentVerb][1][currentType]){
             isTrue = true;
         }else{isTrue = false;}
     }
@@ -39,9 +39,9 @@ function draw(){
     bg('green');
     strokeActive();
     text("Confrère",cx/2,100,"80px Serif");
-    text(`${pro[currentType][1]} → ${con[currentVerb][0][1]}`,cx/2,400,"80px Serif");
+    text(`${pro[currentType][1]} → ${pres[currentVerb][0][1]}`,cx/2,400,"80px Serif");
     selectColor("lightgray");
-    text(`${pro[currentType][0]} → ${con[currentVerb][0][0]}`,cx/2,450,"Italic 40px Serif");
+    text(`${pro[currentType][0]} → ${pres[currentVerb][0][0]}`,cx/2,450,"Italic 40px Serif");
     selectColor("white");
     if(isTrue){selectColor("lightgreen");}else if(isTrue!=undefined){selectColor("maroon")}
     rect(cx/2-(410/2),cy/2-(116/2)+70,410,116);
@@ -59,7 +59,7 @@ function draw(){
         if(isTrue){text("Continue",595+(310/2)+50+(310/2),689+160+75,"60px Serif");}
         if(!isTrue){
             text("Continue",595+(310/2)+50+(310/2),689+160+47,"40px Serif");
-            text("\""+con[currentVerb][1][currentType]+"\"",595+(310/2)+50+(310/2),689+160+93,"Italic 40px Serif");
+            text("\""+pres[currentVerb][1][currentType]+"\"",595+(310/2)+50+(310/2),689+160+93,"Italic 40px Serif");
         }
     }
 
