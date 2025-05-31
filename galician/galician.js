@@ -1,3 +1,4 @@
+let con = [true,"../gcon/index.html"];
 let german = JSON.parse(`
 [
   {

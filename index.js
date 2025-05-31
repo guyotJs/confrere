@@ -1,6 +1,8 @@
 let cx = 1920;
 let cy = 1080;
 let debug = false;
+let toConjugate = false;
+
 function save(sed){german = sed;}
 let rects = [[595,529,310,116],[989,529,310,116],[595,689,310,116],[989,689,310,116]]
 createCanvas(cx,cy)
@@ -19,6 +21,16 @@ function startUp(){
     // alert("uau")
     storedPos = [mouse.x,mouse.y]
 }
+
+try{
+    if(con[0]==true){
+        toConjugate = true;
+    }
+}
+catch(error){
+    console.log(error)
+}
+
 mouseClicked(startUp)
 function drawDebugger(){
     text(`MX: ${mouse.x}, MY: ${mouse.y}, isCorrect: ${isCorrect}, Count: ${counter[0]}/${counter[1]}, I:${index}`,cx/2,cy-30,"40px Serif")
@@ -85,6 +97,7 @@ mouseClicked(()=>{
             newQuestion();
         }
     }
+    if(isInside(mouse,{x:cx-320,y:cy-126,width:310,height:116})&&toConjugate==true){window.location = con[1]}
 });
 
 function draw(){
@@ -102,6 +115,14 @@ function draw(){
         rect(595+(310/2)+50,689+160,310,116);
         selectColor("black");
         text("Continue",595+(310/2)+50+(310/2),689+160+75,"60px Serif")
+    }
+    if(toConjugate){
+        selectColor("white");
+        if(isInside(mouse,{x:cx-320,y:cy-126,width:310,height:116})){selectColor("green")}
+        rect(cx-320,cy-126,310,116);
+        selectColor("black")
+        text("Learn the",cx-320+(310/2),cy-126+38,"Italic 30px Serif");
+        text("Conjugations",cx-320+(310/2),cy-126+85,"45px Serif");
     }
     if(debug){
         drawDebugger();

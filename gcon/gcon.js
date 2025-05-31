@@ -7,8 +7,9 @@ let pro = [
     ["You pl.","Vós"],
     ["They / fem.","Eles / Elas"],
 ];
-let con = [
+let pres = [
     [["to speak", "Falar"],["falo","falas","fala","falamos","falades","falan"]],   
     [["to eat", "Comer"],["como","comes","come","comemos","comedes","comen"]],   
-    [["to live", "Vivir"],["vivo","vives","vive","vivimos","vivides","viven"]]   
+    [["to live", "Vivir"],["vivo","vives","vive","vivimos","vivides","viven"]],
+    [["to be","Estar"],["estou","estás","está","estamos","estades","están"]]
 ];
