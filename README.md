@@ -25,5 +25,5 @@ There are limited languages available right now.
 Confrère, _for certain languages_ offers conjugation practice now! First navigate to the language you would like to learn, and if there is conjugator offered there will be a button in the __bottom right__.
 
 1. [Galician](https://guyotjs.github.io/confrere/galician/index.html) - Present Tense
-2. [French](https://guyotjs.github.io/confrere/galician/index.html) - Conditional Present
+2. [French](https://guyotjs.github.io/confrere/french/index.html) - Conditional Present
 
