@@ -19,3 +19,11 @@ There are limited languages available right now.
 7. [Galician](https://guyotjs.github.io/confrere/galician/index.html) - Beta _(Standard Galician)_
 8. [Wymysorys](https://guyotjs.github.io/confrere/wymysorys/index.html) - Beta _(Written Standard)_
 8. [Ænglisċ](https://guyotjs.github.io/confrere/aenglisc/index.html) - Beta _(Old English)_
+
+### Conjugator
+
+Confrère, _for certain languages_ offers conjugation practice now! First navigate to the language you would like to learn, and if there is conjugator offered there will be a button in the __bottom right__.
+
+1. [Galician](https://guyotjs.github.io/confrere/galician/index.html) - Present Tense
+2. [French](https://guyotjs.github.io/confrere/galician/index.html) - Conditional Present
+
