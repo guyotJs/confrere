@@ -33,6 +33,7 @@ catch(error){
 
 mouseClicked(startUp)
 function drawDebugger(){
+    selectColor("white");
     text(`MX: ${mouse.x}, MY: ${mouse.y}, isCorrect: ${isCorrect}, Count: ${counter[0]}/${counter[1]}, I:${index}`,cx/2,cy-30,"40px Serif")
     text(`I/P: ${data.val}`,cx/2,cy-80,"40px Serif")
     circle(mouse.x,mouse.y,20)
@@ -121,7 +122,7 @@ function draw(){
         if(isInside(mouse,{x:cx-320,y:cy-126,width:310,height:116})){selectColor("green")}
         rect(cx-320,cy-126,310,116);
         selectColor("black")
-        text("Learn the",cx-320+(310/2),cy-126+38,"Italic 30px Serif");
+        text("Learn the "+con[2],cx-320+(310/2),cy-126+38,"Italic 30px Serif");
         text("Conjugations",cx-320+(310/2),cy-126+85,"45px Serif");
     }
     if(debug){
