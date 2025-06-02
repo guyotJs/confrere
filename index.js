@@ -130,7 +130,7 @@ function draw(){
             if(isInside(mouse,{x:cx-320,y:cy-126-(i*modifier),width:310,height:116})){selectColor("green")}
             rect(cx-320,cy-126-(i*modifier),310,116);
             selectColor("black")
-            text("Learn the "+con[i+1][1],cx-320+(310/2),cy-126+38-(i*modifier),"Italic 30px Serif");
+            text("Study the "+con[i+1][1],cx-320+(310/2),cy-126+38-(i*modifier),"Italic 30px Serif");
             text("Conjugations",cx-320+(310/2),cy-126+85-(i*modifier),"45px Serif");
         }
     }

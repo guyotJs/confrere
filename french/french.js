@@ -1,4 +1,4 @@
-let con = [true,["../con/french_conditional.html","Conditional"]]
+let con = [true,["../con/french_conditional.html","Conditional"],["../con/french_passe_simple.html","Passé Simple"]]
 let german = JSON.parse(`
 [
   {
