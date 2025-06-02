@@ -74,6 +74,9 @@ function rectangles(){
 }
 
 function newQuestion(){
+    if(index>=german.length){
+        index = 0;
+    }
     isCorrect = undefined;
     question = [german[index].g,german[index].e,[german[index].a,german[index].b,german[index].c,german[index].d]];
 }
