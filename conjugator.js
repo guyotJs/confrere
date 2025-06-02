@@ -24,7 +24,7 @@ function newQuestion(){
 }
 
 document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter'&&isTrue==undefined) {
         document.getElementById("texto").blur();
         let trueScribe = data.val;
         trueScribe = trueScribe.toLowerCase();
@@ -32,6 +32,8 @@ document.addEventListener('keydown', function(event) {
         if(trueScribe==pres[currentVerb][1][currentType]){
             isTrue = true;
         }else{isTrue = false;}
+    }else if(event.key==='Enter'&&isTrue!=undefined){
+        newQuestion()
     }
 });
 
