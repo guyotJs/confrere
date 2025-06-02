@@ -46,12 +46,12 @@ function render(){
     text("Confrère",centerX,centerY-200-extraBoostUp,"80px Serif");
     selectColor("lightgray");
     text("A Simple Free Clozemaster Alternative ",centerX,centerY-140-extraBoostUp,"Italic 40px Serif");
-    language("GERMAN",0,"(A1-B1)");
-    language("FRENCH",1,"(B1-B2)");
-    language("SCOTS",2,"(A2-B1)");
-    language("NORMAN",3,"(BETA)");
-    language("CATALAN",5,"(BETA)");
-    language("GALICIAN",6,"(A1-C2)");
-    language("WYMYSORYS",7,"(BETA)");
-    language("ÆNGLISĊ",8,"(BETA)");
+    language("GERMAN",0,"(84sn)");
+    language("FRENCH",1,"(10sn)");
+    language("SCOTS",2,"(42sn)");
+    language("NORMAN",3,"(10sn)");
+    language("CATALAN",5,"(10sn)");
+    language("GALICIAN",6,"(96sn)");
+    language("WYMYSORYS",7,"(10sn)");
+    language("ÆNGLISĊ",8,"(10sn)");
 }
