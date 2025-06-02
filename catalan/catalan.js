@@ -159,7 +159,7 @@ let german = JSON.parse(`
     "b": ["multa", true],
     "c": ["hola", false],
     "d": ["tres bé", false]
-  },
+  }
 ]
 
 `);
