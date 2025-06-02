@@ -21,16 +21,16 @@ let german = JSON.parse(`
     "e": "Did you close the door before leaving?",
     "a": ["tancar", false],
     "b": ["tancaràs", false],
-    "c": ["vas tancar", true],
+    "c": ["tancar", true],
     "d": ["tancaves", false]
   },
   {
-    "g": "Ells ___ estudiar per a l'examen.",
+    "g": "Ells ___ de estudiar per a l'examen.",
     "e": "They have to study for the exam.",
-    "a": ["han de", true],
-    "b": ["van haver de", false],
-    "c": ["havien de", false],
-    "d": ["hauran de", false]
+    "a": ["han", true],
+    "b": ["van haver", false],
+    "c": ["havien", false],
+    "d": ["hauran", false]
   },
   {
     "g": "Demà nosaltres ___ al cinema.",
