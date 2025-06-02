@@ -53,7 +53,7 @@ function render(){
     language("SCOTS",3,"(A2-B1)");
     language("NORMAN",4,"(BETA)");
     language("CATALAN",5,"(BETA)");
-    language("GALICIAN",6,"(BETA)");
+    language("GALICIAN",6,"(A1-C2)");
     language("WYMYSORYS",7,"(BETA)");
     language("ÆNGLISĊ",8,"(BETA)");
     language("HAWAIIAN",9,"(SOON)");
