@@ -19,7 +19,7 @@ let german = JSON.parse(`
   {
     "g": "Vas ___ la porta abans de sortir?",
     "e": "Did you close the door before leaving?",
-    "a": ["tancar", false],
+    "a": ["tunca", false],
     "b": ["tancaràs", false],
     "c": ["tancar", true],
     "d": ["tancaves", false]
