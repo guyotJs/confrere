@@ -1,4 +1,4 @@
-let con = [true,"../con/galician_present.html","Present"];
+let con = [true,["../con/galician_present.html","Present"]];
 let german = JSON.parse(`
 [
   {

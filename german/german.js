@@ -1,3 +1,4 @@
+let con = [true,["../con/german_prateritum.html","Präteritum"],["../con/german_perfekt.html","Perfekt"]]
 let german = JSON.parse(`
 [
     {

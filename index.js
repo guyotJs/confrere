@@ -2,6 +2,7 @@ let cx = 1920;
 let cy = 1080;
 let debug = false;
 let toConjugate = false;
+let modifier = 130;
 
 function save(sed){german = sed;}
 let rects = [[595,529,310,116],[989,529,310,116],[595,689,310,116],[989,689,310,116]]
@@ -98,7 +99,13 @@ mouseClicked(()=>{
             newQuestion();
         }
     }
-    if(isInside(mouse,{x:cx-320,y:cy-126,width:310,height:116})&&toConjugate==true){window.location = con[1]}
+    if(toConjugate==true){
+        for(let i=0;i<con.length-1;i++){
+            if(isInside(mouse,{x:cx-320,y:cy-126-(i*modifier),width:310,height:116})){
+                window.location = con[i+1][0];
+            }
+        }        
+    }
 });
 
 function draw(){
@@ -118,12 +125,14 @@ function draw(){
         text("Continue",595+(310/2)+50+(310/2),689+160+75,"60px Serif")
     }
     if(toConjugate){
-        selectColor("white");
-        if(isInside(mouse,{x:cx-320,y:cy-126,width:310,height:116})){selectColor("green")}
-        rect(cx-320,cy-126,310,116);
-        selectColor("black")
-        text("Learn the "+con[2],cx-320+(310/2),cy-126+38,"Italic 30px Serif");
-        text("Conjugations",cx-320+(310/2),cy-126+85,"45px Serif");
+        for(let i=0;i<con.length-1;i++){
+            selectColor("white");
+            if(isInside(mouse,{x:cx-320,y:cy-126-(i*modifier),width:310,height:116})){selectColor("green")}
+            rect(cx-320,cy-126-(i*modifier),310,116);
+            selectColor("black")
+            text("Learn the "+con[i+1][1],cx-320+(310/2),cy-126+38-(i*modifier),"Italic 30px Serif");
+            text("Conjugations",cx-320+(310/2),cy-126+85-(i*modifier),"45px Serif");
+        }
     }
     if(debug){
         drawDebugger();

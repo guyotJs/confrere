@@ -26,7 +26,7 @@ function newQuestion(){
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         document.getElementById("texto").blur();
-        let trueScribe = data.val.replaceAll(" ","");
+        let trueScribe = data.val;
         trueScribe = trueScribe.toLowerCase();
         isDone = true;
         if(trueScribe==pres[currentVerb][1][currentType]){
