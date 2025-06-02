@@ -50,7 +50,7 @@ function render(){
     language("FRENCH",1,"(10sn)");
     language("SCOTS",2,"(42sn)");
     language("NORMAN",3,"(10sn)");
-    language("CATALAN",5,"(10sn)");
+    language("CATALAN",5,"(20sn)");
     language("GALICIAN",6,"(96sn)");
     language("WYMYSORYS",7,"(10sn)");
     language("ÆNGLISĊ",8,"(10sn)");
