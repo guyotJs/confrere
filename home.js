@@ -10,16 +10,15 @@ mouseWillMove();
 
 mouseClicked(()=>{
     if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*0),width:310,height:116})){window.location = "./german/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*1),width:310,height:116})){window.location = "./dutch/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*2),width:310,height:116})){window.location = "./french/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*3),width:310,height:116})){window.location = "./scots/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*4),width:310,height:116})){window.location = "./normaund/index.html"}
+    // if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*1),width:310,height:116})){window.location = "./dutch/index.html"}
+    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*1),width:310,height:116})){window.location = "./french/index.html"}
+    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*2),width:310,height:116})){window.location = "./scots/index.html"}
+    if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*3),width:310,height:116})){window.location = "./normaund/index.html"}
 
     if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*0),width:310,height:116})){window.location = "./catalan/index.html"}
     if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*1),width:310,height:116})){window.location = "./galician/index.html"}
     if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*2),width:310,height:116})){window.location = "./wymysorys/index.html"}
     if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*3),width:310,height:116})){window.location = "./aenglisc/index.html"}
-    if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*4),width:310,height:116})){window.location = "#ComingSoon..."}
 });
 
 
@@ -48,13 +47,11 @@ function render(){
     selectColor("lightgray");
     text("A Simple Free Clozemaster Alternative ",centerX,centerY-140-extraBoostUp,"Italic 40px Serif");
     language("GERMAN",0,"(A1-B1)");
-    language("DUTCH",1,"(BETA)");
-    language("FRENCH",2,"(B1-B2)");
-    language("SCOTS",3,"(A2-B1)");
-    language("NORMAN",4,"(BETA)");
+    language("FRENCH",1,"(B1-B2)");
+    language("SCOTS",2,"(A2-B1)");
+    language("NORMAN",3,"(BETA)");
     language("CATALAN",5,"(BETA)");
     language("GALICIAN",6,"(A1-C2)");
     language("WYMYSORYS",7,"(BETA)");
     language("ÆNGLISĊ",8,"(BETA)");
-    language("HAWAIIAN",9,"(SOON)");
 }
