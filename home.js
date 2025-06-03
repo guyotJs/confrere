@@ -47,7 +47,7 @@ function render(){
     selectColor("lightgray");
     text("A Simple Free Clozemaster Alternative ",centerX,centerY-140-extraBoostUp,"Italic 40px Serif");
     language("GERMAN",0,"(84sn)");
-    language("FRENCH",1,"(10sn)");
+    language("FRENCH",1,"(40sn)");
     language("SCOTS",2,"(42sn)");
     language("NORMAN",3,"(10sn)");
     language("CATALAN",5,"(20sn)");
