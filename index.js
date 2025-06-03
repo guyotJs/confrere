@@ -140,6 +140,8 @@ function draw(){
     if(debug){
         drawDebugger();
     }
+    selectColor("rgba(0,255,0,0.2)");
+    if(counter[1]>0){text(Math.trunc((counter[0]/counter[1])*100)+"%",cx/2,cy-20,"Italic 45px Serif")}
 }
 
 function render(){draw();}
