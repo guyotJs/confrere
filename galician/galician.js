@@ -4,10 +4,10 @@ let german = JSON.parse(`
   {
     "g": "Ela ___ ao supermercado onte.",
     "e": "She went to the supermarket yesterday.",
-    "a": ["foi", true],
+    "a": ["iría", false],
     "b": ["vai", false],
     "c": ["irá", false],
-    "d": ["iría", false]
+    "d": ["foi", true]
   },
   {
     "g": "Nós ___ moito frío esta mañá.",
@@ -20,18 +20,18 @@ let german = JSON.parse(`
   {
     "g": "Ti ___ a porta antes de saír?",
     "e": "Did you close the door before leaving?",
-    "a": ["pechaches", true],
+    "a": ["pechabas", false],
     "b": ["pechas", false],
-    "c": ["pechabas", false],
+    "c": ["pechaches", true],
     "d": ["pecharás", false]
   },
   {
     "g": "Eles ___ estudar para o exame.",
     "e": "They have to study for the exam.",
-    "a": ["teñen que", true],
+    "a": ["terán que", false],
     "b": ["tiveron que", false],
     "c": ["tiñan que", false],
-    "d": ["terán que", false]
+    "d": ["teñen que", true]
   },
   {
     "g": "Mañá nós ___ ao cine.",
@@ -44,8 +44,8 @@ let german = JSON.parse(`
   {
     "g": "O neno ___ xogando no parque.",
     "e": "The boy is playing in the park.",
-    "a": ["está", true],
-    "b": ["estaba", false],
+    "a": ["estaba", false],
+    "b": ["está", true],
     "c": ["estará", false],
     "d": ["estivo", false]
   },

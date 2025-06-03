@@ -10,8 +10,11 @@ createCanvas(cx,cy)
 bg("green")
 let index = 0;
 let question = [german[index].g,german[index].e,[german[index].a,german[index].b,german[index].c,german[index].d]];
+
+function shuffle(array) {let currentIndex = array.length;while (currentIndex != 0) {let randomIndex = Math.floor(Math.random() * currentIndex);currentIndex--;[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];}}
+shuffle(question[2]);
+
 let isCorrect = undefined;
-// correct / total
 let counter = [0,0];
 
 /* Square Maker */
@@ -79,6 +82,7 @@ function newQuestion(){
     }
     isCorrect = undefined;
     question = [german[index].g,german[index].e,[german[index].a,german[index].b,german[index].c,german[index].d]];
+    shuffle(question[2]);
 }
 
 mouseClicked(()=>{
