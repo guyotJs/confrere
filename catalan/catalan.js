@@ -131,7 +131,7 @@ let german = JSON.parse(`
   },
   {
     "g": "___ costa això?",
-    "e": "How much does this costÞ",
+    "e": "How much does this cost?",
     "a": ["Que", false],
     "b": ["Quand", false],
     "c": ["Quo", false],
