@@ -27,4 +27,11 @@ Confrère, _for certain languages_ offers conjugation practice now! First naviga
 2. [French](https://guyotjs.github.io/confrere/french/index.html) - Conditional Present & Passé Simple
 3. [German](https://guyotjs.github.io/confrere/german/index.html) - Perfekt & Imperfekt
 
+### Confère - Basic
+
+Confère, _for certain langugaes_ offeres a simple tool following the style of Basic English. It runs as the same game as standard languages, however the vocabulary is shrunk down to only include around __850 words__.
+
+1. [German](https://guyotjs.github.io/confrere/basic/german/index.html) - 11sn
+1. [Catalan](https://guyotjs.github.io/confrere/basic/catalan/index.html) - 10sn
+
 
