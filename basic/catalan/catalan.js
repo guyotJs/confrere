@@ -130,7 +130,7 @@ let german = JSON.parse(`
     "d": ["cansada", false]
   },
   {
-    "g": "El llibre és a ___ la cadira.",
+    "g": "El llibre és ___ la cadira.",
     "e": "The book is on the chair.",
     "a": ["sobre", true],
     "b": ["sota", false],
