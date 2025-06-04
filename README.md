@@ -33,6 +33,6 @@ Confrère, _for certain languages_ offers conjugation practice now! First naviga
 Confère, _for certain langugaes_ offeres a simple tool following the style of Basic English. It runs as the same game as standard languages, however the vocabulary is shrunk down to only include around __850 words__.
 
 1. [German](https://guyotjs.github.io/confrere/basic/german/index.html) - 11sn
-1. [Catalan](https://guyotjs.github.io/confrere/basic/catalan/index.html) - 10sn
+1. [Catalan](https://guyotjs.github.io/confrere/basic/catalan/index.html) - 20sn
 
 
