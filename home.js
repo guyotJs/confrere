@@ -66,7 +66,7 @@ function render(){
     language("SCOTS",2,"(42sn)");
     language("NORMAN",3,"(10sn)");
     language("LEARN BASIC",4,"(German, Catalan)");
-    language("CATALAN",5,"(20sn)");
+    language("CATALAN",5,"(40sn)");
     language("GALICIAN",6,"(96sn)");
     language("WYMYSORYS",7,"(10sn)");
     language("ÆNGLISĊ",8,"(10sn)");

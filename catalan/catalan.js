@@ -160,6 +160,166 @@ let german = JSON.parse(`
     "b": ["multa", true],
     "c": ["hola", false],
     "d": ["tres bé", false]
+  },
+    {
+    "g": "Jesús ___ amb els deixebles al temple.",
+    "e": "Jesus ___ with the disciples at the temple.",
+    "a": ["parlava", true],
+    "b": ["parlen", false],
+    "c": ["parlaré", false],
+    "d": ["parlavares", false]
+  },
+  {
+    "g": "Cada diumenge, la família ___ a l'església.",
+    "e": "Every Sunday, the family ___ to church.",
+    "a": ["va", false],
+    "b": ["anava", true],
+    "c": ["anarà", false],
+    "d": ["vas", false]
+  },
+  {
+    "g": "La Bíblia ___ moltes històries de fe.",
+    "e": "The Bible ___ many stories of faith.",
+    "a": ["té", true],
+    "b": ["tenim", false],
+    "c": ["teniarem", false],
+    "d": ["tingui", false]
+  },
+  {
+    "g": "Nosaltres ___ a Déu cada nit.",
+    "e": "We ___ to God every night.",
+    "a": ["preguem", true],
+    "b": ["pregava", false],
+    "c": ["preguen", false],
+    "d": ["pregares", false]
+  },
+  {
+    "g": "Ells ___ el baptisme amb alegria.",
+    "e": "They ___ baptism with joy.",
+    "a": ["reben", true],
+    "b": ["rebria", false],
+    "c": ["rebia", false],
+    "d": ["rebré", false]
+  },
+  {
+    "g": "Déu ___ el món segons la Bíblia.",
+    "e": "God ___ the world according to the Bible.",
+    "a": ["crea", false],
+    "b": ["creava", false],
+    "c": ["va crear", true],
+    "d": ["creant", false]
+  },
+  {
+    "g": "El profeta ___ la veritat al poble.",
+    "e": "The prophet ___ the truth to the people.",
+    "a": ["diu", false],
+    "b": ["deia", false],
+    "c": ["va dir", true],
+    "d": ["diguéssim", false]
+  },
+  {
+    "g": "Els arbres ___ fulles verdes a la primavera.",
+    "e": "The trees ___ green leaves in spring.",
+    "a": ["tenen", true],
+    "b": ["tenia", false],
+    "c": ["tingué", false],
+    "d": ["tenint", false]
+  },
+  {
+    "g": "El riu ___ cap al mar.",
+    "e": "The river ___ toward the sea.",
+    "a": ["flueix", true],
+    "b": ["fluir", false],
+    "c": ["fluirà", false],
+    "d": ["fluïa", false]
+  },
+  {
+    "g": "Al bosc, els ocells ___ de bon matí.",
+    "e": "In the forest, the birds ___ early in the morning.",
+    "a": ["canten", true],
+    "b": ["cantàvem", false],
+    "c": ["cantaven", false],
+    "d": ["cantaries", false]
+  },
+  {
+    "g": "La muntanya ___ coberta de neu.",
+    "e": "The mountain ___ covered with snow.",
+    "a": ["estava", true],
+    "b": ["és", false],
+    "c": ["serà", false],
+    "d": ["sigui", false]
+  },
+  {
+    "g": "___ flors de molts colors al prat.",
+    "e": "There ___ flowers of many colors in the meadow.",
+    "a": ["Hi ha", true],
+    "b": ["És", false],
+    "c": ["Tenim", false],
+    "d": ["Fa", false]
+  },
+  {
+    "g": "El sol ___ rere els núvols.",
+    "e": "The sun ___ behind the clouds.",
+    "a": ["s'amaga", true],
+    "b": ["amagava", false],
+    "c": ["amagat", false],
+    "d": ["amagava't", false]
+  },
+  {
+    "g": "Aquest ocell ___ a l’arbre més alt.",
+    "e": "This bird ___ in the tallest tree.",
+    "a": ["viu", true],
+    "b": ["vivim", false],
+    "c": ["viuen", false],
+    "d": ["vivies", false]
+  },
+  {
+    "g": "Barcelona ___ moltes obres d’art famoses.",
+    "e": "Barcelona ___ many famous works of art.",
+    "a": ["té", true],
+    "b": ["tenia", false],
+    "c": ["tindrà", false],
+    "d": ["tens", false]
+  },
+  {
+    "g": "La ciutat ___ de gent a l'estiu.",
+    "e": "The city ___ with people in the summer.",
+    "a": ["s'omple", true],
+    "b": ["omplia", false],
+    "c": ["s'omplirà", false],
+    "d": ["s'ompliarem", false]
+  },
+  {
+    "g": "Els turistes ___ fotos davant la catedral.",
+    "e": "The tourists ___ photos in front of the cathedral.",
+    "a": ["fan", true],
+    "b": ["feien", false],
+    "c": ["faran", false],
+    "d": ["féssim", false]
+  },
+  {
+    "g": "___ una nova estació de metro al barri.",
+    "e": "They ___ a new metro station in the neighborhood.",
+    "a": ["Construeixen", true],
+    "b": ["Construeix", false],
+    "c": ["Construïen", false],
+    "d": ["Construït", false]
+  },
+  {
+    "g": "A València, la gent ___ molt festiva.",
+    "e": "In Valencia, people are very festive.",
+    "a": ["és", true],
+    "b": ["som", false],
+    "c": ["estan", false],
+    "d": ["sigui", false]
+  },
+  {
+    "g": "L’arquitectura moderna ___ amb l'antiga al centre.",
+    "e": "Modern architecture ___ with the old in the center.",
+    "a": ["contrasta", true],
+    "b": ["contrastava", false],
+    "c": ["contrastat", false],
+    "d": ["contrastin", false]
   }
 ]
 
