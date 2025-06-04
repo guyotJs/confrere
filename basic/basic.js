@@ -17,7 +17,7 @@ mouseClicked(()=>{
     // // Large for basic german
     if(isInside(mouse,{x:centerX-(310/2)+leftward,y:centerY-(116/2)-extraBoostUp+(130*4),width:640,height:116})){window.location = "../index.html"}
 
-    // if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*0),width:310,height:116})){window.location = "./catalan/index.html"}
+    if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*0),width:310,height:116})){window.location = "./catalan/index.html"}
     // if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*1),width:310,height:116})){window.location = "./galician/index.html"}
     // if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*2),width:310,height:116})){window.location = "./wymysorys/index.html"}
     // if(isInside(mouse,{x:centerX-(310/2)+rightward,y:centerY-(116/2)-extraBoostUp+(130*3),width:310,height:116})){window.location = "./aenglisc/index.html"}
@@ -58,16 +58,16 @@ function language(name,number,about){
 
 function render(){
     bg("green");
-    text("Confrère",centerX,centerY-200-extraBoostUp,"80px Serif");
+    text("Confrère - Basic",centerX,centerY-200-extraBoostUp,"80px Serif");
     selectColor("lightgray");
     text("Learn Languages Free Forever.",centerX,centerY-140-extraBoostUp,"Italic 40px Serif");
-    language("GERMAN",0,"Learn Basic");
-    language("FRENCH",1,"Coming Soon");
-    language("SCOTS",2,"Coming Soon");
-    language("NORMAN",3,"Coming Soon");
+    language("GERMAN",0,"(11sn)");
+    language("FRENCH",1,"(Coming Soon)");
+    language("SCOTS",2,"(Coming Soon)");
+    language("NORMAN",3,"(Coming Soon)");
     language("GO HOME",4,"");
-    language("CATALAN",5,"Coming Soon");
-    language("GALICIAN",6,"Coming Soon");
-    language("WYMYSORYS",7,"Coming Soon");
-    language("ÆNGLISĊ",8,"Coming Soon");
+    language("CATALAN",5,"(10sn)");
+    language("GALICIAN",6,"(Coming Soon)");
+    language("WYMYSORYS",7,"(Coming Soon)");
+    language("ÆNGLISĊ",8,"(Coming Soon)");
 }
