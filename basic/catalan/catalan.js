@@ -80,6 +80,86 @@ let german = JSON.parse(`
     "b": ["gran", false],
     "c": ["ràpid", false],
     "d": ["ple", false]
+  },
+  {
+    "g": "Jo ___ una casa gran.",
+    "e": "I have a big house.",
+    "a": ["tinc", true],
+    "b": ["té", false],
+    "c": ["tenim", false],
+    "d": ["tenen", false]
+  },
+  {
+    "g": "Ella ___ amb la seva mare.",
+    "e": "She talks with her mother.",
+    "a": ["parla", true],
+    "b": ["parlem", false],
+    "c": ["parles", false],
+    "d": ["parlar", false]
+  },
+  {
+    "g": "Nosaltres ___ cada matí.",
+    "e": "We walk every morning.",
+    "a": ["caminen", false],
+    "b": ["camina", false],
+    "c": ["caminen", false],
+    "d": ["caminen", false]
+  },
+  {
+    "g": "Tu ___ molt a l'escola.",
+    "e": "You learn a lot at school.",
+    "a": ["aprens", true],
+    "b": ["apren", false],
+    "c": ["aprenem", false],
+    "d": ["aprendre", false]
+  },
+  {
+    "g": "Ell ___ feliç avui.",
+    "e": "He is happy today.",
+    "a": ["està", true],
+    "b": ["és", false],
+    "c": ["sóc", false],
+    "d": ["estan", false]
+  },
+  {
+    "g": "La taula és ___.",
+    "e": "The table is round.",
+    "a": ["rodona", true],
+    "b": ["freda", false],
+    "c": ["blava", false],
+    "d": ["cansada", false]
+  },
+  {
+    "g": "El llibre és a ___ la cadira.",
+    "e": "The book is on the chair.",
+    "a": ["sobre", true],
+    "b": ["sota", false],
+    "c": ["dins", false],
+    "d": ["cap", false]
+  },
+  {
+    "g": "Aquest peix és ___.",
+    "e": "This fish is long.",
+    "a": ["llarg", true],
+    "b": ["alt", false],
+    "c": ["clar", false],
+    "d": ["lent", false]
+  },
+  {
+    "g": "___ és el teu llapis?",
+    "e": "Where is your pencil?",
+    "a": ["On", true],
+    "b": ["Quan", false],
+    "c": ["Com", false],
+    "d": ["Per què", false]
+  },
+  {
+    "g": "Aquest menjar és molt ___.",
+    "e": "This food is very good.",
+    "a": ["bo", true],
+    "b": ["dolç", false],
+    "c": ["vell", false],
+    "d": ["clar", false]
   }
 ]    
 `);

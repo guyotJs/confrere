@@ -66,7 +66,7 @@ function render(){
     language("SCOTS",2,"(Coming Soon)");
     language("NORMAN",3,"(Coming Soon)");
     language("GO HOME",4,"");
-    language("CATALAN",5,"(10sn)");
+    language("CATALAN",5,"(20sn)");
     language("GALICIAN",6,"(Coming Soon)");
     language("WYMYSORYS",7,"(Coming Soon)");
     language("ÆNGLISĊ",8,"(Coming Soon)");

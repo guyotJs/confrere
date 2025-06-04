@@ -1,3 +1,4 @@
+let con = [true,["../con/catalan_present.html","Present"]]
 let german = JSON.parse(`
 [
   {
