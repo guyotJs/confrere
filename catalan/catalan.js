@@ -58,9 +58,9 @@ let german = JSON.parse(`
     "d": ["corregirà", false]
   },
   {
-    "g": "Quan ___ tu al metge?",
+    "g": "Quan ___ al metge?",
     "e": "When did you go to the doctor?",
-    "a": ["hi vas anar", true],
+    "a": ["vas anar", true],
     "b": ["hi vas", false],
     "c": ["hi aniràs", false],
     "d": ["hi anaves", false]
