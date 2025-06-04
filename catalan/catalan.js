@@ -163,7 +163,7 @@ let german = JSON.parse(`
   },
     {
     "g": "Jesús ___ amb els deixebles al temple.",
-    "e": "Jesus ___ with the disciples at the temple.",
+    "e": "Jesus spoke with the disciples at the temple.",
     "a": ["parlava", true],
     "b": ["parlen", false],
     "c": ["parlaré", false],
@@ -171,7 +171,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Cada diumenge, la família ___ a l'església.",
-    "e": "Every Sunday, the family ___ to church.",
+    "e": "Every Sunday, the family went to church.",
     "a": ["va", false],
     "b": ["anava", true],
     "c": ["anarà", false],
@@ -179,7 +179,7 @@ let german = JSON.parse(`
   },
   {
     "g": "La Bíblia ___ moltes històries de fe.",
-    "e": "The Bible ___ many stories of faith.",
+    "e": "The Bible has many stories of faith.",
     "a": ["té", true],
     "b": ["tenim", false],
     "c": ["teniarem", false],
@@ -187,7 +187,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Nosaltres ___ a Déu cada nit.",
-    "e": "We ___ to God every night.",
+    "e": "We pray to God every night.",
     "a": ["preguem", true],
     "b": ["pregava", false],
     "c": ["preguen", false],
@@ -195,7 +195,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Ells ___ el baptisme amb alegria.",
-    "e": "They ___ baptism with joy.",
+    "e": "They recieve baptism with joy.",
     "a": ["reben", true],
     "b": ["rebria", false],
     "c": ["rebia", false],
@@ -203,7 +203,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Déu ___ el món segons la Bíblia.",
-    "e": "God ___ the world according to the Bible.",
+    "e": "God created the world according to the Bible.",
     "a": ["crea", false],
     "b": ["creava", false],
     "c": ["va crear", true],
@@ -211,7 +211,7 @@ let german = JSON.parse(`
   },
   {
     "g": "El profeta ___ la veritat al poble.",
-    "e": "The prophet ___ the truth to the people.",
+    "e": "The prophet said the truth to the people.",
     "a": ["diu", false],
     "b": ["deia", false],
     "c": ["va dir", true],
@@ -219,7 +219,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Els arbres ___ fulles verdes a la primavera.",
-    "e": "The trees ___ green leaves in spring.",
+    "e": "The trees have green leaves in spring.",
     "a": ["tenen", true],
     "b": ["tenia", false],
     "c": ["tingué", false],
@@ -227,7 +227,7 @@ let german = JSON.parse(`
   },
   {
     "g": "El riu ___ cap al mar.",
-    "e": "The river ___ toward the sea.",
+    "e": "The river flows toward the sea.",
     "a": ["flueix", true],
     "b": ["fluir", false],
     "c": ["fluirà", false],
@@ -235,7 +235,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Al bosc, els ocells ___ de bon matí.",
-    "e": "In the forest, the birds ___ early in the morning.",
+    "e": "In the forest, the birds sing early in the morning.",
     "a": ["canten", true],
     "b": ["cantàvem", false],
     "c": ["cantaven", false],
@@ -243,7 +243,7 @@ let german = JSON.parse(`
   },
   {
     "g": "La muntanya ___ coberta de neu.",
-    "e": "The mountain ___ covered with snow.",
+    "e": "The mountain was covered with snow.",
     "a": ["estava", true],
     "b": ["és", false],
     "c": ["serà", false],
@@ -251,7 +251,7 @@ let german = JSON.parse(`
   },
   {
     "g": "___ flors de molts colors al prat.",
-    "e": "There ___ flowers of many colors in the meadow.",
+    "e": "There are flowers of many colors in the meadow.",
     "a": ["Hi ha", true],
     "b": ["És", false],
     "c": ["Tenim", false],
@@ -259,7 +259,7 @@ let german = JSON.parse(`
   },
   {
     "g": "El sol ___ rere els núvols.",
-    "e": "The sun ___ behind the clouds.",
+    "e": "The sun hides behind the clouds.",
     "a": ["s'amaga", true],
     "b": ["amagava", false],
     "c": ["amagat", false],
@@ -267,7 +267,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Aquest ocell ___ a l’arbre més alt.",
-    "e": "This bird ___ in the tallest tree.",
+    "e": "This bird lives in the tallest tree.",
     "a": ["viu", true],
     "b": ["vivim", false],
     "c": ["viuen", false],
@@ -275,7 +275,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Barcelona ___ moltes obres d’art famoses.",
-    "e": "Barcelona ___ many famous works of art.",
+    "e": "Barcelona has many famous works of art.",
     "a": ["té", true],
     "b": ["tenia", false],
     "c": ["tindrà", false],
@@ -283,7 +283,7 @@ let german = JSON.parse(`
   },
   {
     "g": "La ciutat ___ de gent a l'estiu.",
-    "e": "The city ___ with people in the summer.",
+    "e": "The city is filled with people in the summer.",
     "a": ["s'omple", true],
     "b": ["omplia", false],
     "c": ["s'omplirà", false],
@@ -291,7 +291,7 @@ let german = JSON.parse(`
   },
   {
     "g": "Els turistes ___ fotos davant la catedral.",
-    "e": "The tourists ___ photos in front of the cathedral.",
+    "e": "The tourists take photos in front of the cathedral.",
     "a": ["fan", true],
     "b": ["feien", false],
     "c": ["faran", false],
@@ -299,7 +299,7 @@ let german = JSON.parse(`
   },
   {
     "g": "___ una nova estació de metro al barri.",
-    "e": "They ___ a new metro station in the neighborhood.",
+    "e": "They construct a new metro station in the neighborhood.",
     "a": ["Construeixen", true],
     "b": ["Construeix", false],
     "c": ["Construïen", false],
@@ -315,7 +315,7 @@ let german = JSON.parse(`
   },
   {
     "g": "L’arquitectura moderna ___ amb l'antiga al centre.",
-    "e": "Modern architecture ___ with the old in the center.",
+    "e": "Modern architecture contrasts with the old in the center.",
     "a": ["contrasta", true],
     "b": ["contrastava", false],
     "c": ["contrastat", false],
