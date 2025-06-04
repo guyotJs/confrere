@@ -100,10 +100,10 @@ let german = JSON.parse(`
   {
     "g": "Nosaltres ___ cada matí.",
     "e": "We walk every morning.",
-    "a": ["caminen", false],
+    "a": ["caminem", true],
     "b": ["camina", false],
     "c": ["caminen", false],
-    "d": ["caminen", false]
+    "d": ["camino", false]
   },
   {
     "g": "Tu ___ molt a l'escola.",
