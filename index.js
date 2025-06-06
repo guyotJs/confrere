@@ -2,7 +2,7 @@ let cx = 1920;
 let cy = 1080;
 let debug = false;
 let toConjugate = false;
-let modifier = 130;
+let modifier = 125;
 
 function save(sed){german = sed;}
 let rects = [[595,529,310,116],[989,529,310,116],[595,689,310,116],[989,689,310,116]]

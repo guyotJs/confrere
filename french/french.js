@@ -1,4 +1,4 @@
-let con = [true,["../con/french_conditional.html","Conditional"],["../con/french_passe_simple.html","Passé Simple"],["../con/french_subjonctif.html","Subjonctif"]]
+let con = [true,["../con/french_conditional.html","Conditional"],["../con/french_passe_simple.html","Passé Simple"],["../con/french_subjonctif.html","Subjonctif"],["../con/french_future_simple.html","Future Simple"],["../con/french_imparfait.html","Imparfait"]]
 let german = JSON.parse(`
 [
   {
@@ -8,6 +8,14 @@ let german = JSON.parse(`
     "b": ["soit", false],
     "c": ["est", false],
     "d": ["sera", false]
+  },
+  {
+    "g": "Je saurais si ___ à l'école.",
+    "e": "I would know if I went to school.",
+    "a": ["j'allais", true],
+    "b": ["j'aurais", false],
+    "c": ["il faut", false],
+    "d": ["je vais", false]
   },
   {
     "g": "Si j’avais plus de temps, je ___ des cours de peinture.",
