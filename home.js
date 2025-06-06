@@ -62,7 +62,7 @@ function render(){
     selectColor("lightgray");
     text("Learn Languages Free Forever.",centerX,centerY-140-extraBoostUp,"Italic 40px Serif");
     language("GERMAN",0,"(84sn)");
-    language("FRENCH",1,"(40sn)");
+    language("FRENCH",1,"(41sn)");
     language("SCOTS",2,"(42sn)");
     language("NORMAN",3,"(10sn)");
     language("LEARN BASIC",4,"(German, Catalan)");
