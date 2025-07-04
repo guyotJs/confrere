@@ -21,7 +21,6 @@ function newQuestion(){
     isTrue = undefined;
     currentType = random(0,pro.length-1);
     currentVerb = random(0,pres.length-1);
-    setTimeout(0,()=>{document.getElementById("texto").focus();});
 }
 
 document.addEventListener('keydown', function(event) {
@@ -35,6 +34,9 @@ document.addEventListener('keydown', function(event) {
         }else{isTrue = false;}
     }else if(event.key==='Enter'&&isTrue!=undefined){
         newQuestion()
+    }
+    if (event.key === '`'){
+        document.getElementById("texto").focus();
     }
 });
 
