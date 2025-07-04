@@ -36,7 +36,9 @@ document.addEventListener('keydown', function(event) {
         newQuestion()
     }
     if (event.key === '`'){
-        document.getElementById("texto").focus();
+        setTimeout(1,()=>{
+            document.getElementById("texto").focus();
+        })
     }
 });
 
