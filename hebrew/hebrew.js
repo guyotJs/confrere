@@ -1,8 +1,8 @@
 let german = JSON.parse(`
 [
     {
-    "g": "Ela ___ ao supermercado onte.",
-    "e": "She went to the supermarket yesterday.",
+    "g": "",
+    "e": "",
     "a": ["iría", false],
     "b": ["vai", false],
     "c": ["irá", false],
